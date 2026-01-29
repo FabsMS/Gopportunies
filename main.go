@@ -1,14 +1,12 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/FabsMS/Gopportunies/config"
 	"github.com/FabsMS/Gopportunies/router"
 )
 
 var (
-	logger config.Logger
+	logger *config.Logger
 )
 
 func main() {
